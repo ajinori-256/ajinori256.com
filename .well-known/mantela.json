@@ -2,11 +2,11 @@
   "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
   "version": "0.1.0",
   "aboutMe": {
-    "identifier": "8ad8afa6-11a8-4e61-b28d-343393f3d4d4",
     "name": "NoriTEL",
     "preferredPrefix": [
       "989"
     ],
+    "identifier": "8ad8afa6-11a8-4e61-b28d-343393f3d4d4",
     "sipUsername": "SIP-TRUNK-68D718D3",
     "sipPassword": "cGhvSjQ4bVJiWVE9",
     "sipServer": "sip:tkytel-miko.tail618d9.ts.net:5060;transport=udp"
@@ -15,8 +15,8 @@
     {
       "name": "Samma",
       "extension": "204",
-      "type": "smartphone",
       "identifier": "XH94W6HT",
+      "type": "smartphone",
       "geolocationCoordinates": {
         "latitude": 0,
         "longitude": 0,
@@ -28,9 +28,22 @@
     {
       "name": "Hamachi",
       "extension": "202",
-      "type": "smartphone",
-      "identifier": "RXKN5N5N"
+      "identifier": "RXKN5N5N",
+      "type": "smartphone"
     }
   ],
-  "providers": []
+  "providers": [
+    {
+      "name": "MKNETEL",
+      "prefix": "0510",
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+    },
+    {
+      "name": "yude",
+      "prefix": "390",
+      "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+      "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
+    }
+  ]
 }
