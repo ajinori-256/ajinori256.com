@@ -30,6 +30,12 @@
       "extension": "202",
       "identifier": "RXKN5N5N",
       "type": "smartphone"
+    },
+    {
+      "name": "Kamasu",
+      "extension": "205",
+      "type": "phone",
+      "identifier": "WLWHWYW9"
     }
   ],
   "providers": [
