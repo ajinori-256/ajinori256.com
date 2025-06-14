@@ -1,0 +1,36 @@
+{
+  "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+  "version": "0.1.0",
+  "aboutMe": {
+    "identifier": "8ad8afa6-11a8-4e61-b28d-343393f3d4d4",
+    "name": "NoriTEL",
+    "preferredPrefix": [
+      "989"
+    ],
+    "sipUsername": "SIP-TRUNK-68D718D3",
+    "sipPassword": "cGhvSjQ4bVJiWVE9",
+    "sipServer": "sip:tkytel-miko.tail618d9.ts.net:5060;transport=udp"
+  },
+  "extensions": [
+    {
+      "name": "Samma",
+      "extension": "204",
+      "type": "smartphone",
+      "identifier": "XH94W6HT",
+      "geolocationCoordinates": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0,
+        "accuracy": 0,
+        "altitudeAccuracy": 0
+      }
+    },
+    {
+      "name": "Hamachi",
+      "extension": "202",
+      "type": "smartphone",
+      "identifier": "RXKN5N5N"
+    }
+  ],
+  "providers": []
+}
